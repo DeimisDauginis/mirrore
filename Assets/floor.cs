@@ -1,22 +1,34 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Floor : MonoBehaviour
+public class PlayerCollision : MonoBehaviour
 {
-    // This function is called when the player collides with another object
+    private void Start()
+    {
+        // Any initialization code you want to run when the script starts
+    }
+
+    private void Update()
+    {
+        // Any code you want to run every frame
+    }
+
     private void OnCollisionEnter(Collision collision)
     {
-        // Check if the collided object has a tag "DangerousObject"
-        if (collision.gameObject.CompareTag("First Person Controller"))
+        // Check if the collision is with an object named "Floor"
+        if (collision.gameObject.name == "Floor")
         {
-            // Call a function to handle player death (you can replace this with your own logic)
-            Die();
+            // Restart the current scene
+            RestartScene();
         }
     }
 
-    // Function to handle player death (replace this with your own death logic)
-    private void Die()
+    private void RestartScene()
     {
-        Debug.Log("Player has died!"); // You can replace this with any death-related logic
-        // For example, you might want to play an animation, display a game over screen, or reload the level.
+        // Get the current active scene index
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+
+        // Reload the current scene
+        SceneManager.LoadScene(currentSceneIndex);
     }
 }
