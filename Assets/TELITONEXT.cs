@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class floor : MonoBehaviour
+public class TELITONEXT : MonoBehaviour
 {
     public string nextLevelName;
 
@@ -9,7 +9,7 @@ public class floor : MonoBehaviour
     {
         if (other.gameObject.name.Contains("First Person Controller"))
         {
-            SceneManager.LoadScene("SampleScene");
+            SceneManager.LoadScene("Nori medalio");
         }
     }
 }
