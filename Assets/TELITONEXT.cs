@@ -9,7 +9,7 @@ public class TELITONEXT : MonoBehaviour
     {
         if (other.gameObject.name.Contains("First Person Controller"))
         {
-            SceneManager.LoadScene("Nori medalio");
+            SceneManager.LoadScene("Intro");
         }
     }
 }
