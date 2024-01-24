@@ -2249,7 +2249,7 @@ GameObject:
   - component: {fileID: 727744457}
   - component: {fileID: 727744458}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Teleporter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2936,7 +2936,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: f637800949c72bf4c838823bdf15e754, type: 3}
       propertyPath: m_Name
-      value: 9
+      value: school
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f637800949c72bf4c838823bdf15e754, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3167,7 +3167,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 45414ae893ef0d24aaa8d91a7d834868, type: 3}
       propertyPath: m_Name
-      value: 8
+      value: Hospital
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 45414ae893ef0d24aaa8d91a7d834868, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4343,7 +4343,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 1c9654e604a39b44b8293f6a34f7b66c, type: 3}
       propertyPath: m_Name
-      value: 3 (1)
+      value: flat
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1c9654e604a39b44b8293f6a34f7b66c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4408,7 +4408,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 1c9654e604a39b44b8293f6a34f7b66c, type: 3}
       propertyPath: m_Name
-      value: 3
+      value: Other buisness
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1c9654e604a39b44b8293f6a34f7b66c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5197,7 +5197,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 1c9654e604a39b44b8293f6a34f7b66c, type: 3}
       propertyPath: m_Name
-      value: 3 (2)
+      value: falt for people
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 1c9654e604a39b44b8293f6a34f7b66c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5443,7 +5443,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 6bf94840710cc534ca5c718dd3733c51, type: 3}
       propertyPath: m_Name
-      value: 4
+      value: Buissness
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6bf94840710cc534ca5c718dd3733c51, type: 3}
       propertyPath: m_LocalPosition.x

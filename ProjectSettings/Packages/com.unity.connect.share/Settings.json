@@ -19,7 +19,7 @@
             {
                 "type": "System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "buildOutputDirList",
-                "value": "{\"m_Value\":\"C:/Deimis/mirrore/WebGL Builds;;;;;;;;;\"}"
+                "value": "{\"m_Value\":\"C:/Users/Rain/Desktop/games/mirrore/Build and run/Builds;C:/Users/Rain/Desktop/games/mirrore/WebGL Builds/Build;C:/Deimis/mirrore/WebGL Builds;;;;;;;\"}"
             }
         ]
     }
